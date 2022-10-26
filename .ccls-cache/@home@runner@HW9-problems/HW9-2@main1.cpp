@@ -9,6 +9,9 @@ int main() {
   const int column = 8;
   int grade[row][column];
   int minVal;
+
+  cout << "Enter grades for students 1 through 5" << endl;
+  
   for (int r = 0; r < row; r++) {
 
     for (int c = 0; c < 5; c++) {
