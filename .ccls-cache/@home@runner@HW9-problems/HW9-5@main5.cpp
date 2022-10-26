@@ -28,11 +28,11 @@ int main(){
     for (int r = 0; r < 2; r++){
     for(int c = 0; c < 2; c++){
       matrix[r][c] = adjoint(matrix,detA, r, c);
-      //cout << matrix[r][c] << " " << endl;
+      
       }
     }
-    cout << matrix[0][0] << " " << matrix[0][1] << endl;
-    cout << matrix[1][0] << " " << matrix[1][1] << endl;
+    cout << matrix[1][1] << " " << -matrix[0][1] << endl;
+    cout << -matrix[1][0] << " " << matrix[0][0] << endl;
   }
     
 
