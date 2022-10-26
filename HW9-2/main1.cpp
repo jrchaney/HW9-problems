@@ -27,6 +27,7 @@ int main() {
   }
 
   printMatrix(grade, row, column);
+    
 }
 void printMatrix(int grade[][8], int row, int column) {
   for (int r = 0; r < row; r++) {
