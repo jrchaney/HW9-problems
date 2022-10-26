@@ -31,17 +31,13 @@ int main(){
       //cout << matrix[r][c] << " " << endl;
       }
     }
+    cout << matrix[0][0] << " " << matrix[0][1] << endl;
+    cout << matrix[1][0] << " " << matrix[1][1] << endl;
   }
     
 
 
-  /* for (int r = 0; r < 2; r++){
-    for(int c = 0; c < 2; c++){
-    cout << matrix[r][c] << " " << endl;
-      }
-    }
-  }
-*/
+ 
   else
     cout << "Cannot take the inverse because the determinant is 0" << endl;
 }
